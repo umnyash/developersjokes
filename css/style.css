@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  font: 36px/44px "Montserrat", Arial, sans-serif;
+  color: #fff;
+}
+html {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0 73px 104px;
+}
+.main-title-container {
+  position: absolute;
+  width: 100%;
+}
+.main-title,
+.recommendation {
+  font-size: 70px;
+  line-height: 85px;
+  font-weight: 700;
+}
+.main-title {
+  width: 1000px;
+  padding: 105px 73px 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.main-title span,
+.recommendation span {
+  color: #f66c41;
+}
+.serious-man {
+  width: 1000px;
+  margin: 0 auto;
+}
+.serious-man figcaption {
+  color: #bcbbbb;
+  margin-top: 128px;
+}
+.serious-man figcaption em {
+  font-style: normal;
+  text-decoration: line-through;
+}
+.recommendation {
+  margin-top: 90px;
+  margin-bottom: 20px;
+}
+.recommendation i {
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 700;
+  font-style: italic;
+  display: block;
+  margin-top: 90px;
+}
+.joke-preparation {
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 90px;
+  padding: 0;
+  list-style: none;
+}
+.joke-preparation li::before {
+  content: "•";
+  display: inline-block;
+  width: 55px;
+  text-align: center;
+}
+.joke {
+  max-width: 815px;
+  margin-bottom: 90px;
+}
+.joke-title {
+  font-size: 70px;
+  line-height: 85px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.joke p {
+  margin: 0;
+}
+.to-all-jokes {
+  font-weight: 500;
+  color: #f66c41;
+}
